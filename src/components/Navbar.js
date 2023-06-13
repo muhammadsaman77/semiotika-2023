@@ -3,7 +3,7 @@ import Logo from "./Logo";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between ml-36  mt-2 fixed top-0 ">
+    <div className="flex justify-between ml-20  mt-2 fixed top-0 ">
       <Logo />
       <nav>
         <Button label="Home" href="asan" />

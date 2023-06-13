@@ -1,13 +1,19 @@
 import About from "./components/About";
-import Hero from "./components/Hero";
+import Footer from "./components/Footer";
+import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
+import TheConference from "./components/TheConference";
+import TimeLine from "./components/Timeline";
 
 function App() {
   return (
     <div className="flex flex-col">
       <Navbar />
-      <Hero />
+      <Landing />
       <About />
+      <TheConference />
+      {/* <TimeLine /> */}
+      <Footer />
     </div>
   );
 }
