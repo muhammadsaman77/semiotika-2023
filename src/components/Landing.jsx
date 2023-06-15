@@ -1,6 +1,6 @@
 import landing_backdrop from "../utils/assets/img/landing_backdrop.jpg";
 import Button from "./Button";
-import Countdown from "react-countdown";
+import MCountdown from "./MCountdown";
 const Landing = () => {
   return (
     <div className="flex" style={{ height: "650px" }}>
@@ -24,7 +24,7 @@ const Landing = () => {
             Peran Matematika dan Teknologi Informasi dalam Mengoptimalkan
             Pengelolaan Bisnis di ERA 5.0
           </p>
-          {/* <Countdown date={Date.now() + 5000}></Countdown> */}
+          <MCountdown />
           <Button label="Submission" type="button" />
         </div>
       </section>
