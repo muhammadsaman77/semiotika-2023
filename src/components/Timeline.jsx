@@ -32,13 +32,8 @@ const TimeLine = () => {
         <h2 className="font-nunito font-semibold text-primary-blue text-base mt-2">
           Here’s the timeline of SEMIOTIKA
         </h2>
-        <div style={{ width: "800px", height: "300px" }}>
-          <Chrono
-            items={items}
-            showAllCardsHorizontal={true}
-            hideControls={true}
-            contentDetailsHeight={500}
-          />
+        <div style={{ width: "1200px", height: "400px" }}>
+          <Chrono items={items} />
         </div>
       </div>
     </>

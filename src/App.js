@@ -7,7 +7,7 @@ import TheConference from "./components/TheConference";
 import TimeLine from "./components/Timeline";
 import TopicsList from "./components/TopicList";
 import Location from "./components/Location";
-import Speakers from "./components/Speakers";
+import Speakers from "./components/SpeakersList";
 
 function App() {
   return (

@@ -1,4 +1,5 @@
 import Button from "./Button";
+import FeeList from "./FeeList";
 
 const Registration = () => {
   return (
@@ -10,10 +11,11 @@ const Registration = () => {
         <p className="font-semibold font-nunito text-lg text-primary-blue">
           To entry this event, you must fill the registration
         </p>
-        <Button label="Registration" type="button" />
+        <Button label="Registration" type="button" hover="no" />
         <p className="font-semibold font-nunito text-lg text-primary-blue">
           Information of Registration
         </p>
+        <FeeList />
       </div>
     </>
   );

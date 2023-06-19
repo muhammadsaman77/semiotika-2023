@@ -5,6 +5,8 @@ module.exports = {
     colors: {
       "primary-blue": "#002687",
       "mono-white": "#ffffff",
+      "mono-new-white": "#FEFEFE",
+      "mono-white-grey": "#F5F5F5",
       "primary-yellow": "#FF9C01",
     },
     extend: {

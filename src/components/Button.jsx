@@ -1,5 +1,12 @@
 const Button = (props) => {
   if (props.type === "button") {
+    if (props.hover === "no") {
+      return (
+        <button className="font-nunito text-base border-2 border-primary-yellow rounded-md px-6 py-3 text-mono-white bg-primary-yellow">
+          {props.label}
+        </button>
+      );
+    }
     return (
       <button className="font-nunito text-base border-2 border-primary-yellow rounded-md px-6 py-3 text-mono-white hover:bg-primary-yellow">
         {props.label}
