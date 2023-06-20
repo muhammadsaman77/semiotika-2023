@@ -1,8 +1,8 @@
 import speaker_bg from "../utils/assets/img/Speaker.png";
 import Speaker from "./Speaker";
-import speaker1 from "../utils/assets/img/Speaker1.jpg";
-import speaker2 from "../utils/assets/img/Speaker2.jpg";
-import speaker3 from "../utils/assets/img/Speaker3.jpg";
+import speaker1 from "../utils/assets/img/prof_arifsatria.jpg";
+import speaker2 from "../utils/assets/img/Dedi.jpeg";
+import speaker3 from "../utils/assets/img/astrid.png";
 const SpeakersList = () => {
   const speakers = [
     "Prof. Albert Enstain",

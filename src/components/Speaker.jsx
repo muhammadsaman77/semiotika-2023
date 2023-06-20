@@ -5,9 +5,9 @@ const Speaker = ({ src, title }) => {
         className="w-1/3"
         style={{
           backgroundImage: `url(${src})`,
-
-          height: "500px",
+          height: "600px",
           backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
         }}
       >
         <span
