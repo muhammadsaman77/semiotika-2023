@@ -21,7 +21,7 @@ const TimeLine = () => {
   ];
   return (
     <>
-      <div id="timeline" className=" mt-10 ">
+      <div id="timeline" className=" mt-20 ">
         <h1 className=" ml-20 text-primary-blue font-bold font-poppins text-6xl">
           Timeline
         </h1>
@@ -32,12 +32,11 @@ const TimeLine = () => {
         <h2 className="ml-20 font-nunito font-semibold text-primary-blue text-base mt-2">
           Here’s the timeline of SEMIOTIKA
         </h2>
-        <div style={{ width: "500px", height: "450px", margin: "0 auto" }}>
+        <div className=" mt-5" style={{ width: "100vw", height: "400px" }}>
           <Chrono
             items={items}
-            mode="VERTICAL_ALTERNATING"
-            cardWidth={100}
-            cardHeight={70}
+            mode="VERTICAL"
+            cardHeight={30}
             hideControls={true}
           />
         </div>
