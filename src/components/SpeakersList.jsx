@@ -1,13 +1,13 @@
 import speaker_bg from "../utils/assets/img/Speaker.png";
 import Speaker from "./Speaker";
 import speaker1 from "../utils/assets/img/prof_arifsatria.jpg";
-import speaker2 from "../utils/assets/img/Dedi.jpeg";
-import speaker3 from "../utils/assets/img/astrid.png";
+import speaker2 from "../utils/assets/img/Dedi.jpg";
+import speaker3 from "../utils/assets/img/astrid.jpg";
 const SpeakersList = () => {
   const speakers = [
-    "Prof. Albert Enstain",
-    "Prof. Nanami Kento",
-    "Mrs. Anne Grande",
+    "Prof. Dr.  Arif Satria, SP., M.Si.",
+    "Dr.rer.pol. Dedy Dwi Prastyo",
+    "Astrid Aldila Octarizka, S.T., M.B.A",
   ];
   return (
     <>
@@ -15,7 +15,6 @@ const SpeakersList = () => {
         id="speakers"
         style={{
           backgroundImage: `url(${speaker_bg})`,
-          backgroundPosition: "top",
         }}
       >
         <h1 className="text-mono-white-grey font-bold text-6xl font-poppins text-center my-5">

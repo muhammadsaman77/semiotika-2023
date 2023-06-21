@@ -3,7 +3,7 @@ import { Chrono } from "react-chrono";
 const TimeLine = () => {
   const items = [
     {
-      title: "August 9, 2023",
+      title: "June 7 - August 9 2023",
       cardTitle: "Submission",
     },
     {
@@ -22,7 +22,7 @@ const TimeLine = () => {
   return (
     <>
       <div id="timeline" className=" mt-20 ">
-        <h1 className=" ml-20 text-primary-blue font-bold font-poppins text-6xl">
+        <h1 className="ml-20 text-primary-blue font-bold font-poppins text-6xl">
           Timeline
         </h1>
         <hr
@@ -32,7 +32,7 @@ const TimeLine = () => {
         <h2 className="ml-20 font-nunito font-semibold text-primary-blue text-base mt-2">
           Here’s the timeline of SEMIOTIKA
         </h2>
-        <div className=" mt-5" style={{ width: "100vw", height: "400px" }}>
+        <div className=" mt-5 " style={{ width: "95vw", height: "400px" }}>
           <Chrono
             items={items}
             mode="VERTICAL"

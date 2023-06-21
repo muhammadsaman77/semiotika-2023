@@ -4,15 +4,14 @@ const Speaker = ({ src, title }) => {
       <div
         className="w-1/3"
         style={{
-          backgroundImage: `url(${src})`,
+          backgroundImage: `linear-gradient(0deg, rgba(0, 38, 135, 0.5), rgba(0, 38, 135, 0.5)), url(${src})`,
           height: "600px",
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
+          backgroundPosition: "top",
         }}
       >
         <span
-          className="font-nunito text-mono-new-white font-semibold text-xl"
-          style={{ position: "relative", top: "60vh", left: "2vw" }}
+          className="font-nunito text-mono-new-white font-semibold text-2xl"
+          style={{ position: "relative", top: "73vh", left: "4vw" }}
         >
           {title}
         </span>
