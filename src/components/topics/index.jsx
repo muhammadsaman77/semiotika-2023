@@ -1,9 +1,9 @@
 import Topic from "./Topic";
-import ilus_math from "../utils/assets/icon/ilus_math.png";
-import ilus_bisdig from "../utils/assets/icon/ilus_bisdig.png";
-import ilus_aktua from "../utils/assets/icon/ilus_aktua.png";
-import ilus_statis from "../utils/assets/icon/ilus_statis.png";
-import ilus_siif from "../utils/assets/icon/ilus_siif.png";
+import ilus_math from "../../utils/assets/icon/ilus_math.png";
+import ilus_bisdig from "../../utils/assets/icon/ilus_bisdig.png";
+import ilus_aktua from "../../utils/assets/icon/ilus_aktua.png";
+import ilus_statis from "../../utils/assets/icon/ilus_statis.png";
+import ilus_siif from "../../utils/assets/icon/ilus_siif.png";
 
 const TopicsList = () => {
   const math = ["Analisis & Aljabar", "Matematika Terapan"];

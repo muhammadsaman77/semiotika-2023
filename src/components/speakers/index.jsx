@@ -1,8 +1,8 @@
-import speaker_bg from "../utils/assets/img/Speaker.png";
+import speaker_bg from "../../utils/assets/img/Speaker.png";
 import Speaker from "./Speaker";
-import speaker1 from "../utils/assets/img/prof_arifsatria.jpg";
-import speaker2 from "../utils/assets/img/Dedi.jpg";
-import speaker3 from "../utils/assets/img/astrid.jpg";
+import speaker1 from "../../utils/assets/img/prof_arifsatria.jpg";
+import speaker2 from "../../utils/assets/img/Dedi.jpg";
+import speaker3 from "../../utils/assets/img/astrid.jpg";
 const SpeakersList = () => {
   const speakers = [
     "Prof. Dr.  Arif Satria, SP., M.Si.",

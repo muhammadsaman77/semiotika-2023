@@ -1,12 +1,12 @@
 import Info from "./Info";
-import maps from "../utils/assets/icon/maps.png";
-import calendar from "../utils/assets/icon/calendar.png";
-import loud_speaker from "../utils/assets/icon/loud-speaker.png";
+import maps from "../../utils/assets/icon/maps.png";
+import calendar from "../../utils/assets/icon/calendar.png";
+import loud_speaker from "../../utils/assets/icon/loud-speaker.png";
 const TheConference = () => {
   return (
     <div className="mt-10">
       <div className="flex flex-col  items-center">
-        <h1 className=" font-poppins text-primary-blue font-bold text-2xl">
+        <h1 className=" font-poppins text-primary-blue font-bold text-2xl sm:text-lg">
           the Conference
         </h1>
         <hr

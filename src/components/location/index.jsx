@@ -1,6 +1,6 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import marker from "../utils/assets/icon/marker.svg";
+import marker from "../../utils/assets/icon/marker.svg";
 import { Icon } from "leaflet";
 const myIcon = new Icon({
   iconUrl: marker,
@@ -11,14 +11,16 @@ const Location = () => {
     <>
       <div
         id="location"
-        className=" my-5 flex flex-col text-6xl text-primary-blue font-bold"
+        className=" my-5 flex flex-col  text-primary-blue font-bold"
       >
-        <h1 className="mr-32 mb-5 text-right">Location</h1>
+        <h1 className="mr-32 mb-5 text-right text-6xl sm:text-3xl sm:mr-7">
+          Location
+        </h1>
         <MapContainer
           center={[-1.1489813250753935, 116.862811759648]}
           zoom={17}
-          style={{ height: "80vh" }}
           scrollWheelZoom={false}
+          className="h-screen sm:h-60"
         >
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
           <Marker

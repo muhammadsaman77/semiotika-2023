@@ -12,19 +12,19 @@ const renderer = ({ days, hours, minutes, seconds, completed }) => {
   return (
     <div className="flex flex-row font-nunito text-mono-white mb-5  ">
       <div className="flex flex-col mr-10">
-        <span className="text-2xl">{days}</span>
+        <span className="text-2xl sm:text-xl">{days}</span>
         <span className="text-xs">Days</span>
       </div>
       <div className="flex flex-col mr-10">
-        <span className="text-2xl">{hours}</span>
+        <span className="text-2xl sm:text-xl">{hours}</span>
         <span className="text-xs">Hours</span>
       </div>
       <div className="flex flex-col mr-10">
-        <span className="text-2xl">{minutes}</span>
+        <span className="text-2xl sm:text-xl">{minutes}</span>
         <span className="text-xs">Minutes</span>
       </div>
       <div className="flex flex-col mr-10">
-        <span className="text-2xl">{seconds}</span>
+        <span className="text-2xl sm:text-xl">{seconds}</span>
         <span className="text-xs">Seconds</span>
       </div>
     </div>
