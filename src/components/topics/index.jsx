@@ -29,7 +29,7 @@ const TopicsList = () => {
           <Topic logo={ilus_bisdig} topics={bisdig} />
         </div>
 
-        <div className="flex flex-col sm:w-60">
+        <div className="flex flex-col sm:first-letter:w-60">
           <Topic logo={ilus_statis} topics={statis} />
           <Topic logo={ilus_aktua} topics={aktua} />
         </div>
