@@ -31,11 +31,11 @@ const About = () => {
             </p>
           </section>
           <section className="flex flex-col items-end mt-10">
-            <div className="w-80 mb-5">
+            <div className="w-80 mb-5 sm:px-5">
               <p className="font-nunito text-primary-blue text-end text-sm">
                 Who's managing?
               </p>
-              <p className="font-nunito text-primary-blue font-bold text-end text-lg sm:text-base ">
+              <p className="font-nunito text-primary-blue font-bold text-end text-lg sm:text-sm ">
                 Jurusan Matematika dan Teknologi
                 <span className="block">Institut Teknologi Kalimantan</span>
               </p>

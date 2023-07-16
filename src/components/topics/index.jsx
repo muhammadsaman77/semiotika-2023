@@ -24,12 +24,12 @@ const TopicsList = () => {
   return (
     <>
       <div className="flex flex-wrap pt-20 justify-evenly sm:pt-5" id="topics">
-        <div className="flex flex-col">
+        <div className="flex flex-col sm:w-60">
           <Topic logo={ilus_math} topics={math} />
           <Topic logo={ilus_bisdig} topics={bisdig} />
         </div>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col sm:w-60">
           <Topic logo={ilus_statis} topics={statis} />
           <Topic logo={ilus_aktua} topics={aktua} />
         </div>

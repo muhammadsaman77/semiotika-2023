@@ -12,7 +12,7 @@ const Navbar = () => {
     isActive ? "hamburger-active" : ""
   }`;
   const headerRef = useRef(null);
-  const navMenu = `static sm:absolute py-5 bg-transparent sm:bg-primary-blue sm:shadow-lg rounded-b-lg max-w-full sm:max-w-[250px] w-screen right-0 top-full ${
+  const navMenu = `static sm:absolute sm:py-5 bg-transparent sm:bg-primary-blue sm:shadow-lg rounded-b-lg max-w-full sm:max-w-[250px] w-screen right-0 top-full ${
     isActive ? "" : "sm:hidden"
   }`;
   useEffect(() => {
