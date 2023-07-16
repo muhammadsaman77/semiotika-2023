@@ -23,17 +23,19 @@ const TopicsList = () => {
   ];
   return (
     <>
-      <div className="flex flex-row pt-20 justify-evenly" id="topics">
-        <div className="grid grid-cols-2 gap-x-32">
+      <div className="flex flex-wrap pt-20 justify-evenly sm:pt-5" id="topics">
+        <div className="flex flex-col">
           <Topic logo={ilus_math} topics={math} />
           <Topic logo={ilus_bisdig} topics={bisdig} />
+        </div>
 
+        <div className="flex flex-col">
           <Topic logo={ilus_statis} topics={statis} />
           <Topic logo={ilus_aktua} topics={aktua} />
         </div>
-        <div className="flex flex-col">
-          <div className="flex flex-col items-end ">
-            <h1 className="mb-3 font-poppins font-bold text-primary-blue text-6xl ">
+        <div className="flex flex-col sm:order-first ">
+          <div className="flex flex-col items-end sm:ml-4">
+            <h1 className="mb-3 font-poppins font-bold text-primary-blue text-6xl sm:text-3xl">
               Topics
             </h1>
 
@@ -41,7 +43,7 @@ const TopicsList = () => {
               className="bg-primary-yellow"
               style={{ width: "150px", height: "4px" }}
             ></hr>
-            <h3 className="font-nunito font-semibold text-primary-blue text-sm mt-2 mb-5">
+            <h3 className="font-nunito font-semibold text-primary-blue text-sm mt-2 mb-5 sm:text-xs">
               Here’s some topics of SEMIOTIKA
             </h3>
           </div>

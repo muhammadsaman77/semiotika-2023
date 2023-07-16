@@ -4,10 +4,9 @@ const FeeList = () => {
   const participantList = [
     {
       partisipant: "Peserta Seminar",
-      type: "",
       costList: [
         {
-          name: "",
+          name: "Online",
           cost: "FREE",
         },
       ],
@@ -15,10 +14,9 @@ const FeeList = () => {
     },
     {
       partisipant: "Peserta Workshop",
-      type: "Hybrid",
       costList: [
         {
-          name: "",
+          name: "Offline",
           cost: "IDR. 35 K",
         },
       ],
@@ -29,11 +27,11 @@ const FeeList = () => {
       type: "Hybrid",
       costList: [
         {
-          name: "Early Bird",
-          cost: "IDR. 225 K",
+          name: "Online",
+          cost: "IDR. 200 K",
         },
         {
-          name: "Normal Bird",
+          name: "Offline",
           cost: "IDR. 275 K",
         },
       ],
@@ -41,14 +39,13 @@ const FeeList = () => {
     },
     {
       partisipant: "Pemakalah Mahasiswa",
-      type: "Hybrid",
       costList: [
         {
-          name: "Early Bird",
-          cost: "IDR. 175 K",
+          name: "Online",
+          cost: "IDR. 150 K",
         },
         {
-          name: "Normal Bird",
+          name: "Offline",
           cost: "IDR. 225 K",
         },
       ],
@@ -57,7 +54,7 @@ const FeeList = () => {
   ];
   return (
     <>
-      <div className="flex flex-row justify-between">
+      <div className="flex flex-wrap justify-between sm:gap-3 px-20">
         {participantList.map((e) => (
           <Fee
             costList={e["costList"]}

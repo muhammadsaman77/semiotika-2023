@@ -28,7 +28,7 @@ const TheConference = () => {
           icon={calendar}
         />
         <Info
-          title="Location"
+          title="Speakers"
           information="3 Professional Speakers"
           icon={loud_speaker}
         />

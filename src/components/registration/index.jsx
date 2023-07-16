@@ -9,11 +9,11 @@ const Registration = () => {
   };
   return (
     <>
-      <div className="px-20 mb-20" id="registration">
-        <h1 className="text-primary-blue font-bold font-poppins text-6xl text-center mb-7 sm:text-3xl">
+      <div className="mb-20" id="registration">
+        <h1 className="text-primary-blue font-bold font-poppins text-6xl text-center mb-7 sm:text-3xl sm:mb-3 ">
           Registration
         </h1>
-        <p className="font-semibold font-nunito text-lg text-primary-blue mb-3 sm:text-base">
+        <p className="font-semibold font-nunito text-lg text-primary-blue mb-3 sm:text-base sm:pl-5 pl-20">
           To entry this event, you must fill the registration
         </p>
         <Button
@@ -22,7 +22,7 @@ const Registration = () => {
           hover="no"
           onClick={onClick}
         />
-        <p className="mt-7 mb-3 font-semibold font-nunito text-lg text-primary-blue">
+        <p className="mt-7 mb-3 font-semibold font-nunito text-lg text-primary-blue sm:text-base sm:text-center pl-20">
           Information of Registration
         </p>
         <FeeList />

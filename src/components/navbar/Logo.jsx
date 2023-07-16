@@ -3,7 +3,7 @@ const Logo = () => {
     <>
       <a
         href="/"
-        className="font-josefin text-xl font-bold text-mono-white mr-48"
+        className="px-5 font-josefin text-xl font-bold text-mono-white mr-48"
       >
         SEMIOTIKA
       </a>

@@ -12,7 +12,7 @@ import Speakers from "./components/speakers/index";
 function App() {
   return (
     <div className="flex flex-col">
-      {/* <Navbar /> */}
+      <Navbar />
       <Landing />
       <About />
       <TheConference />

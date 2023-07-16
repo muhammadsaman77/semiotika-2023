@@ -24,7 +24,7 @@ const TimeLine = () => {
   ];
   return (
     <>
-      <div id="timeline" className=" mt-20 ">
+      <div id="timeline" className=" mt-20 sm:mt-10">
         <h1 className="ml-20 sm:ml-10 text-primary-blue font-bold font-poppins text-6xl sm:text-3xl">
           Timeline
         </h1>

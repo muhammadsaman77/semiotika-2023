@@ -5,7 +5,7 @@ const Button = (props) => {
         <button
           style={{ boxShadow: "2px 2px 24px #FF9C01" }}
           onClick={props.onClick}
-          className=" font-nunito text-base border-2 border-primary-yellow rounded-md px-6 py-3 text-mono-white bg-primary-yellow"
+          className="sm:mx-auto sm:block font-nunito text-base border-2 border-primary-yellow rounded-md px-6 py-3 text-mono-white bg-primary-yellow ml-20  "
         >
           {props.label}
         </button>
@@ -22,7 +22,7 @@ const Button = (props) => {
   }
   return (
     <a
-      className=" ml-16 font-nunito text-base text-mono-white hover:border-b-2 border-b-primary-yellow"
+      className="text-base text-mono-white py-2  flex mx-8 group-hover:text-primary-yellow"
       href={props.href}
     >
       {props.label}

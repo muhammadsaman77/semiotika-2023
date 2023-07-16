@@ -18,18 +18,18 @@ module.exports = {
       sm: { max: "639px" },
       // => @media (max-width: 639px) { ... }
     },
-    colors: {
-      "primary-blue": "#002687",
-      "mono-white": "#ffffff",
-      "mono-new-white": "#FEFEFE",
-      "mono-white-grey": "#F5F5F5",
-      "primary-yellow": "#FF9C01",
-    },
     extend: {
       fontFamily: {
         josefin: ["Josefin Sans"],
         nunito: ["Nunito Sans"],
         poppins: ["Poppins"],
+      },
+      colors: {
+        "primary-blue": "#002687",
+        "mono-white": "#ffffff",
+        "mono-new-white": "#FEFEFE",
+        "mono-white-grey": "#F5F5F5",
+        "primary-yellow": "#FF9C01",
       },
     },
   },

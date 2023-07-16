@@ -17,10 +17,10 @@ const SpeakersList = () => {
           backgroundImage: `url(${speaker_bg})`,
         }}
       >
-        <h1 className="text-mono-white-grey font-bold text-6xl font-poppins text-center my-5">
+        <h1 className="text-mono-white-grey font-bold text-6xl font-poppins text-center my-5 sm:text-3xl">
           Speakers
         </h1>
-        <div className="flex flex-row justify-between">
+        <div className="flex flex-row">
           <Speaker src={speaker1} title={speakers[0]} />
           <Speaker src={speaker2} title={speakers[1]} />
           <Speaker src={speaker3} title={speakers[2]} />
