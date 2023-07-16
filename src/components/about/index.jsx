@@ -30,7 +30,7 @@ const About = () => {
               Mengoptimalkan Pengelolaan Bisnis di ERA 5.0”
             </p>
           </section>
-          <section className="flex flex-col items-end mt-10">
+          <section className="flex flex-col items-end mt-10 ">
             <div className="w-80 mb-5 sm:px-5">
               <p className="font-nunito text-primary-blue text-end text-sm">
                 Who's managing?
@@ -40,7 +40,12 @@ const About = () => {
                 <span className="block">Institut Teknologi Kalimantan</span>
               </p>
             </div>
-            <img className="rounded-md" src={itk} width="800px" alt=""></img>
+            <img
+              className="rounded-md sm:w-11/12 sm:mr-5"
+              src={itk}
+              width="800px"
+              alt=""
+            ></img>
           </section>
         </div>
       </section>
