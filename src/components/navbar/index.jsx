@@ -12,7 +12,7 @@ const Navbar = () => {
     isActive ? "hamburger-active" : ""
   }`;
   const headerRef = useRef(null);
-  const navMenu = `static sm:absolute sm:py-5 bg-transparent sm:bg-primary-blue sm:shadow-lg rounded-b-lg max-w-full sm:max-w-[250px] w-screen right-0 top-full ${
+  const navMenu = `static sm:absolute sm:py-3 bg-transparent sm:bg-primary-blue sm:shadow-lg rounded-b-lg max-w-full sm:opacity-80 w-screen right-0 top-full ${
     isActive ? "" : "sm:hidden"
   }`;
   useEffect(() => {
@@ -31,7 +31,7 @@ const Navbar = () => {
       className="bg-transparent absolute top-0 left-0  w-full flex items-center z-10 "
     >
       <div className="container">
-        <div className="flex items-center justify-between relative px-10 py-3">
+        <div className="flex items-center justify-between relative px-10 py-2 sm:px-8">
           <Logo />
           <div className="sm:flex sm:items-center sm:px-4">
             <button

@@ -11,7 +11,7 @@ const Location = () => {
     <>
       <div
         id="location"
-        className=" my-5 flex flex-col  text-primary-blue font-bold"
+        className=" my-5 sm:mt-0 flex flex-col  text-primary-blue font-bold"
       >
         <h1 className="mr-32 mb-5 text-right text-6xl sm:text-3xl sm:mr-7">
           Location

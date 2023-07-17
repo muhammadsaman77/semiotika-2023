@@ -17,10 +17,7 @@ const Landing = () => {
         }}
         className="w-1/3 sm:w-full h-auto"
       >
-        <div
-          className="ml-20 mt-40 sm:mt-16 sm:ml-10 relative sm:pb-5"
-          // style={{ width: "600px" }}
-        >
+        <div className="ml-20 mt-40 sm:mt-16 sm:ml-10 relative sm:pb-5">
           <h1 className="font-poppins font-extrabold text-mono-white text-8xl sm:text-4xl">
             SEMIOTIKA 2023
           </h1>

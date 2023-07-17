@@ -34,7 +34,7 @@ const TopicsList = () => {
           <Topic logo={ilus_aktua} topics={aktua} />
         </div>
         <div className="flex flex-col sm:order-first ">
-          <div className="flex flex-col items-end sm:ml-4">
+          <div className="flex flex-col items-end sm:items-center">
             <h1 className="mb-3 font-poppins font-bold text-primary-blue text-6xl sm:text-3xl">
               Topics
             </h1>

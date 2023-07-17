@@ -13,7 +13,7 @@ const Button = (props) => {
     }
     return (
       <button
-        className="font-nunito text-base border-2 border-primary-yellow rounded-md px-6 py-3 text-mono-white hover:bg-primary-yellow sm:px-3 sm:py-2 sm:text-sm"
+        className="font-nunito text-base border shadow-lg border-primary-yellow rounded-md px-6 py-3 text-mono-white hover:bg-primary-yellow sm:px-3 sm:py-2 sm:text-sm"
         onClick={props.onClick}
       >
         {props.label}
