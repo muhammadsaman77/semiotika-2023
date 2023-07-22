@@ -3,10 +3,7 @@ import Button from "../button/index";
 import MCountdown from "./MCountdown";
 const Landing = () => {
   const onClick = () => {
-    window.open(
-      "https://journal.itk.ac.id/index.php/semiotika/login",
-      "_blank"
-    );
+    window.location.href = "#registration";
   };
   return (
     <div className="flex flex-wrap">
@@ -30,7 +27,7 @@ const Landing = () => {
             Pengelolaan Bisnis di ERA 5.0
           </p>
           <MCountdown />
-          <Button label="Submission Paper" type="button" onClick={onClick} />
+          <Button label="Let's Register" type="button" onClick={onClick} />
         </div>
       </div>
       <div className="w-2/3 sm:w-full h-auto">

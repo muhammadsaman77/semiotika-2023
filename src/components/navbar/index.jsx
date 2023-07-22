@@ -63,6 +63,9 @@ const Navbar = () => {
                   <Button label="Timeline" href="/#timeline" />
                 </li>
                 <li className="group">
+                  <Button label="Author Guideline" href="/#author-guideline" />
+                </li>
+                <li className="group">
                   <Button label="Registration" href="/#registration" />
                 </li>
                 <li className="group">

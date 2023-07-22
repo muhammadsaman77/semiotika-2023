@@ -1,31 +1,42 @@
-import Button from "../button";
-import FeeList from "./FeeList";
+import { useState } from "react";
+import ForParticipant from "./ForParticipant";
+import ForPresenter from "./ForPresenter";
 const Registration = () => {
-  const onClick = () => {
-    window.open(
-      "https://docs.google.com/forms/d/e/1FAIpQLSdnGEC8wRq6plZvezy6albXwhQeLYtvQN0vd0iehRYla4yMBw/viewform",
-      "_blank"
-    );
+  const [activeTab, setActiveTab] = useState(0);
+  const handleTabClick = (index) => {
+    setActiveTab(index);
   };
+  const participantButton =
+    activeTab === 0 ? "text-primary-blue" : "text-primary-yellow";
+  const presentButton =
+    activeTab === 1 ? "text-primary-blue" : "text-primary-yellow";
   return (
     <>
-      <div className="mb-20 sm:mb-10" id="registration">
+      <div
+        className="mb-20 sm:mb-10 pl-20 pr-10 pt-10 sm:pl-10"
+        id="registration"
+      >
         <h1 className="text-primary-blue font-bold font-poppins text-6xl text-center mb-7 sm:text-3xl sm:mb-3 ">
           Registration
         </h1>
-        <p className="font-semibold font-nunito text-lg text-primary-blue mb-3 sm:text-base sm:pl-0 pl-20 sm:text-center">
-          To entry this event, you must fill the registration
-        </p>
-        <Button
-          label="Registration"
-          type="button"
-          hover="no"
-          onClick={onClick}
-        />
-        <p className="mt-7 mb-3 font-semibold font-nunito text-lg text-primary-blue sm:text-base sm:text-center pl-20 sm:pl-0">
-          Information of Registration
-        </p>
-        <FeeList />
+        <div>
+          <div className="font-nunito font-semibold text-lg my-3 ">
+            <button
+              onClick={() => handleTabClick(0)}
+              className={participantButton}
+            >
+              For Partisipant
+            </button>
+            <span className="border-r-2 border-slate-500 mx-2"></span>
+            <button onClick={() => handleTabClick(1)} className={presentButton}>
+              For Presenter
+            </button>
+          </div>
+          <div>
+            {activeTab === 0 && <ForParticipant />}
+            {activeTab === 1 && <ForPresenter />}
+          </div>
+        </div>
       </div>
     </>
   );
