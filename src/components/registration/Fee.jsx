@@ -5,7 +5,7 @@ const Fee = (props) => {
         style={{
           boxShadow: "1px 1px 25px rgba(0, 0, 0, 0.15)",
         }}
-        className="font-nunito  text-lg text-primary-blue  pt-5 px-7 border-primary-yellow border-2 border-dashed  h-64 w-80 rounded text-center sm:h-60"
+        className="font-nunito  text-lg text-primary-blue  p-2 px-7 border-primary-yellow border-2 border-dashed  h-64 w-80 rounded text-center sm:h-60"
       >
         <h1 className="font-bold text-lg sm:text-base">{props.partisipant}</h1>
         {/* <h2 className="font-semibold text-sm text-right">{props.type}</h2> */}
