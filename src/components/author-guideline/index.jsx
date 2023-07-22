@@ -51,7 +51,7 @@ function AuthorGuideline() {
             Makalah lengkap harus diserahkan dalam WORD ke SEMIOTIKA Open
             Journal
             <a
-              className="block text-primary-yellow underline"
+              className="text-primary-yellow block sm:overflow-x-auto  underline"
               href="https://journal.itk.ac.id/index.php/semiotika/about/submissions"
             >
               https://journal.itk.ac.id/index.php/semiotika/about/submissions
