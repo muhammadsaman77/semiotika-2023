@@ -26,7 +26,7 @@ const ForParticipant = () => {
           cost: "IDR. 35 K",
         },
       ],
-      fasilitas: ["E-Certificate", "Seminar Kit"],
+      fasilitas: ["E-Certificate", "Lunch Box"],
     },
   ];
   return (

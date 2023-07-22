@@ -23,7 +23,7 @@ function AuthorGuideline() {
           <li>
             Makalah harus relevan dengan topik penelitian yang telah ditentukan
             (topik dapat dilihat{" "}
-            <a className="underline" href="/#topics">
+            <a className="underline text-primary-yellow" href="/#topics">
               disini
             </a>
             );
@@ -32,7 +32,7 @@ function AuthorGuideline() {
             Makalah ditulis sesuai dengan format yang telah ditentukan (format
             dapat diunduh{" "}
             <a
-              className="underline"
+              className="underline text-primary-yellow"
               href="https://docs.google.com/document/d/1Pcgd7MbCb46ym0IWrnyeb2_JkFyUhNHp/edit?usp=sharing&ouid=108468419628199996421&rtpof=true&sd=true"
               target="_blank"
               rel="noreferrer"
@@ -50,6 +50,12 @@ function AuthorGuideline() {
           <li>
             Makalah lengkap harus diserahkan dalam WORD ke SEMIOTIKA Open
             Journal
+            <a
+              className="block text-primary-yellow underline"
+              href="https://journal.itk.ac.id/index.php/semiotika/about/submissions"
+            >
+              https://journal.itk.ac.id/index.php/semiotika/about/submissions
+            </a>
           </li>
           <li>
             Makalah yang diterima harus didaftarkan dan dipresentasikan pada

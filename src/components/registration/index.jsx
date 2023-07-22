@@ -25,7 +25,7 @@ const Registration = () => {
               onClick={() => handleTabClick(0)}
               className={participantButton}
             >
-              For Partisipant
+              For Participant
             </button>
             <span className="border-r-2 border-slate-500 mx-2"></span>
             <button onClick={() => handleTabClick(1)} className={presentButton}>

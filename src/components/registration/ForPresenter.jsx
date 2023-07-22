@@ -24,6 +24,7 @@ const ForPresenter = () => {
       fasilitas: [
         "E-Certificate",
         "Seminar Kit (Offline)",
+        "Lunch Box (Offline)",
         "Publish E-Journal (Selected Paper)",
       ],
     },
@@ -42,6 +43,7 @@ const ForPresenter = () => {
       fasilitas: [
         "E-Certificate",
         "Seminar Kit (Offline)",
+        "Lunch Box (Offline)",
         "Publish E-Journal (Selected Paper)",
       ],
     },
