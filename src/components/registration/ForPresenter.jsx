@@ -2,10 +2,7 @@ import Button from "../button";
 import Fee from "./Fee";
 const ForPresenter = () => {
   const onClick = () => {
-    window.open(
-      "https://journal.itk.ac.id/index.php/semiotika/login",
-      "_blank"
-    );
+    window.open("https://forms.gle/ag6wRbKYXfaoQasg6", "_blank");
   };
   const presenterList = [
     {
