@@ -52,9 +52,9 @@ function AuthorGuideline() {
             Journal
             <a
               className="text-primary-yellow block sm:overflow-x-auto  underline"
-              href="https://journal.itk.ac.id/index.php/semiotika/about/submissions"
+              href="https://forms.gle/ag6wRbKYXfaoQasg6"
             >
-              https://journal.itk.ac.id/index.php/semiotika/about/submissions
+              https://forms.gle/ag6wRbKYXfaoQasg6
             </a>
           </li>
           <li>

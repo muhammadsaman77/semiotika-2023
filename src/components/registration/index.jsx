@@ -13,7 +13,7 @@ const Registration = () => {
   return (
     <>
       <div
-        className="mb-20 sm:mb-10 pl-20 pr-10 pt-10 sm:pl-10"
+        className="mb-20 sm:mb-10 pl-10 pr-10 pt-10 sm:pl-10"
         id="registration"
       >
         <h1 className="text-primary-blue font-bold font-poppins text-6xl text-center mb-7 sm:text-3xl sm:mb-3 ">
