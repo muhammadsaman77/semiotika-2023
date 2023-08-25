@@ -3,23 +3,28 @@ import { Chrono } from "react-chrono";
 const TimeLine = () => {
   const items = [
     {
-      title: "July 17 - August 25 2023",
+      title: "July 17 - September 10 2023",
       cardTitle: "Submission",
       style: {
         height: "300px",
       },
     },
     {
-      title: "September 8, 2023",
+      title: "September 18, 2023",
       cardTitle: "Accepted",
     },
     {
-      title: "September 8 - 15, 2023",
-      cardTitle: "Payment",
+      title: "September 18 - 22, 2023",
+      cardTitle:
+        "Payment \n(The payment technique will be informed via email/WAG after the announcement is accepted)",
     },
     {
-      title: "September 29-30, 2023",
-      cardTitle: "Workshop & Seminar",
+      title: "September 29, 2023",
+      cardTitle: "Workshop",
+    },
+    {
+      title: "September 30, 2023",
+      cardTitle: "Seminar",
     },
   ];
   return (

@@ -1,4 +1,5 @@
 import Button from "../button";
+import pemakalah from "../../utils/assets/video/pemakalah.mp4";
 import Fee from "./Fee";
 const ForPresenter = () => {
   const onClick = () => {
@@ -60,10 +61,7 @@ const ForPresenter = () => {
             hover="no"
             onClick={onClick}
           />
-        </div>
-        <span className="border-r-2 border-primary-blue mx-14"></span>
-        <div>
-          <p className=" mb-3 font-semibold font-nunito text-lg text-primary-blue sm:text-base sm:pl-0 sm:m-4">
+          <p className="mt-3 mb-4 font-semibold font-nunito text-lg text-primary-blue sm:text-base sm:pl-0 sm:m-4">
             Information of Registration
           </p>
           <div className="flex flex-wrap gap-10 sm:gap-5">
@@ -80,6 +78,15 @@ const ForPresenter = () => {
               type={presenterList[1]["type"]}
             />
           </div>
+        </div>
+        <span className="border-r-2 border-primary-blue mx-20"></span>
+        <div>
+          <h2 className="text-lg text-primary-blue font-semibold border-primary-yellow border-b-2 inline-block mb-3">
+            Related Videos
+          </h2>
+          <video width={240} controls>
+            <source src={pemakalah} type="video/mp4" />
+          </video>
         </div>
       </div>
     </>

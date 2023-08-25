@@ -5,7 +5,7 @@ const Button = (props) => {
         <button
           style={{ boxShadow: "2px 2px 24px #FF9C01" }}
           onClick={props.onClick}
-          className="font-nunito text-base border-2 border-primary-yellow rounded-md px-6 py-3 text-mono-white bg-primary-yellow  "
+          className="font-nunito text-base border-2 border-primary-yellow rounded-md px-6  py-3 text-mono-white bg-primary-yellow  "
         >
           {props.label}
         </button>
